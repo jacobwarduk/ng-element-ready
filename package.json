@@ -1,0 +1,52 @@
+{
+  "name": "ng-element-ready",
+  "version": "1.0.0",
+  "description": "Broadcast when an element has been compiled and is ready",
+  "main": "elementReady.js",
+  "scripts": {
+    "lint": "xo",
+    "test": "jasmine"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "angular": "^1.6.5",
+    "babel-plugin-angularjs-annotate": "^0.7.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-es2015": "^6.24.1",
+    "karma": "^1.3.0",
+    "karma-babel-preprocessor": "^6.0.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-jasmine-matchers": "^3.0.1",
+    "karma-ng-html2js-preprocessor": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "phantomjs-prebuilt": "^2.1.12",
+    "jasmine-matchers": "^0.2.3",
+    "xo": "^0.18.2"
+  },
+  "author": "Jacob Ward <jacob@riino.co.uk>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jacobwarduk/ng-element-ready.git"
+  },
+  "keywords": [
+    "angularjs",
+    "directive",
+    "element",
+    "ready",
+    "broadcast"
+  ],
+  "bugs": {
+    "url": "https://github.com/jacobwarduk/ng-element-ready/issues"
+  },
+  "homepage": "https://github.com/jacobwarduk/ng-element-ready#readme",
+  "xo": {
+    "rules": {
+      "unicorn/filename-case": 0
+    }
+  }
+}
