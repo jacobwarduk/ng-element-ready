@@ -22,4 +22,4 @@
 		.module('ElementReady', [])
 		.directive('elementReady', elementReady)
 	;
-})();
+})(angular);
