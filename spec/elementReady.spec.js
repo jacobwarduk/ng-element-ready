@@ -10,7 +10,7 @@ describe('elementReady', () => {
 	let rootScope;
 
 	beforeEach(() => {
-		module('anatwine');
+		module('ElementReady');
 	});
 
 	describe('when compiled', () => {
